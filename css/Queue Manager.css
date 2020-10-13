@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style -- Start */
+.screen {
+  display: grid;
+  grid-template-columns: 81px 1fr;
+  grid-template-rows: 1fr;
+  padding: 0px;
+  font-family: 'Montserrat';
+  color: #00374F;
+}
+
+.screen1{
+  background-color: #0B5100;
+  padding: 10px;
+}
+
+.ico1{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.ico2{
+    padding-top: 659px;
+    padding-left: 10px;
+}
+.screen2{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 70px 1fr;
+
+    gap: 6px;
+    padding: 10px;
+}
+
+.view1{
+    display: grid;
+  
+    grid-template-rows: 95px 103px  103px 103px 103px 103px 103px 103px;
+}
+
+.view2{
+    display: grid;
+  
+    grid-template-rows: 95px 103px  103px 103px 103px 103px 103px 103px;
+
+}
+
+.doc{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.tabs{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #E5E5E5;
+}
+
+.menubar{
+    font-size: 20px; 
+    font-weight: bold; 
+    padding-left: 10px; 
+    padding-top: 10px;
+}
+
+.pat1{
+    background-color: #C4C4C4;
+}
+.pat2{
+    background-color: #E5E5E5;
+}
+
+.pat3{
+    background-color: #F1F1F1;
+    border-bottom: 1px solid #ccc8c8;
+}
+
+/* Container Style -- End */
+
+h{
+  vertical-align: middle;
+  padding: 10px;
+  display: table-cell;
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #00374F;
+}
+h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: #00374F;
+    padding: 10px;
+}
+
+t1{
+    vertical-align: middle;
+    padding: 10px;
+    display: table-cell;
+    cursor: pointer;
+}
+
+t1:hover{
+    color: #00374f8e;
+}

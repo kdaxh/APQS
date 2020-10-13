@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style -- Start */
+.screen {
+  display: grid;
+  grid-template-columns: 81px 1fr;
+  padding: 0px;
+  font-family: 'Montserrat';
+  color: #00374F;
+}
+
+.screen1{
+  background-color: #0B5100;
+  grid-template-rows: 65px 65px 65px;
+  padding: 10px;
+}
+
+.img1{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.img2{
+  padding-top: 50px; padding-left: 10px;
+}
+.img3{
+  padding-top: 698px; padding-left: 10px;
+}
+
+.screen2{
+  display: grid;
+
+  background-color: null;
+
+  grid-template-columns: 341px 1fr;
+  grid-template-rows: 105px 798px;
+  
+  padding: 15px;
+  gap: 5px;
+}
+
+.doc{
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+.patient{
+  display: grid;
+
+  grid-template-rows: 105px 63px 105px 105px 105px 105px 105px 105px;
+}
+
+.pat1{
+  background-color: #46D873;
+}
+.pat2{
+  background-color: #004444;
+}
+.pat3{
+  background-color: #EAEAEA;
+  border-bottom: 1px solid #ccc8c8;
+}
+.currentpatient{
+  background-color: #EAEAEA;
+
+  padding: 5px;
+
+}
+
+/* Container Style -- End */
+
+h{
+  vertical-align: middle;
+  padding: 10px;
+  display: table-cell;
+}
+w1{
+  color: #ffff;
+  font-weight: bold;
+  vertical-align: middle;
+  padding: 10px;
+  display: table-cell;
+  
+}

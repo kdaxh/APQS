@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style -- Start */
+.whole{
+    height: 100%;
+}
+.q-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4;
+    padding: 0px;
+    font-family: 'Montserrat';
+    color: #00374F;
+}
+
+.main-container {
+    grid-column: 0/2;
+    background-color: #60D483;
+    height: 184%;
+    padding: 200px;
+}
+
+.pic-container {
+    grid-column: 2/3;
+    background-color: #60D483;
+    height: 184%;
+    padding: 13px;
+}
+
+.pic-container2 {
+    grid-column: 2/3;
+    background-color: #60D483;
+    height: 184%;
+    padding: 13px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container {
+    grid-column: 3/4;
+    height: 184%;
+
+    background-color: #CCCCCC;
+
+    padding: 90px;
+
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: 1fr;
+
+}
+
+.plant{
+    height: 1fr;
+    width: 1fr;
+    justify-content: right;
+}
+
+.main{
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #00374F;
+    background-color: #f1f1f1;
+}
+
+.screen {
+  display: grid;
+  grid-template-columns: 81px 1fr;
+  padding: 0px;
+  font-family: 'Montserrat';
+  color: #00374F;
+}
+
+.screen1{
+  background-color: #0B5100;
+  grid-template-rows: 65px 65px 65px;
+  padding: 10px;
+}
+
+.screen2{
+  display: grid;
+
+  background-color: null;
+
+  grid-template-columns: 341px 1fr;
+  grid-template-rows: 105px 798px;
+  
+  padding: 15px;
+  gap: 5px;
+}
+
+.doc{
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+.patient{
+  display: grid;
+
+  grid-template-rows: 105px 63px 105px 105px 105px 105px 105px 105px;
+}
+
+.currentpatient{
+  background-color: #EAEAEA;
+
+  padding: 5px;
+
+}
+/* Container Style -- End */
+
+h{
+  vertical-align: middle;
+  padding: 10px;
+  display: table-cell;
+}
+
+h1{
+    width: 100%;
+    font-size: 35.5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h2{
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  h3{
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  h4{
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h5{
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    color: #00374F;
+  }
+
+  .login{
+    margin-top: 15px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .service{
+    text-align: right;
+}
+  
+  .login:hover{
+    color: red;
+  }
+  .block{
+      display: block;
+  }
+
+  .doc-1 {
+      padding-top: 150px;
+      padding-right: 50px;
+      width: 120%;
+  }
+  /*
+  .img:hover{
+    cursor: pointer;
+    background-color: #ddd7d7;
+  }*/
+  .map{
+      width: 741;
+      height: 376;
+  }
