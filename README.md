@@ -1,3 +1,3 @@
 # Automatic Patient Queueing System (APQS)
 
-html and css
+HTML and CSS
