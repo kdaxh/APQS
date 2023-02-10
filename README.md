@@ -2,4 +2,4 @@
 
 html and css
 
-Malaria
+Malaria Prevalence prediction
