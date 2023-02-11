@@ -2,4 +2,4 @@
 
 By HTML and CSS
 
-Model for predicting Malaria prevalence
+Model for predicting malaria prevalence.
