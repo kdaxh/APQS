@@ -1,5 +1,5 @@
 # Automatic Patient Queueing System (APQS)
 
-UI by HTMl and css
+UI by HTML and css
 
 Model for predicting malaria prevalence.
